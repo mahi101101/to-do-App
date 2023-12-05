@@ -1,0 +1,75 @@
+body {
+  background-image: url(../../Files/Images/Background/jeremy-bishop-G9i_plbfDgk-unsplash.jpg);
+  background-size: cover;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  height: 100vh !important;
+}
+
+h1 {
+  font-weight: 900;
+  line-height: 1em;
+}
+
+li {
+  font-weight: 500;
+  line-height: 1.2rem;
+  font-size: 18px;
+}
+
+p {
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+.navbar {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.tasks {
+  display: inline-block;
+  background-color: rgba(1, 6, 58, 0.2);
+  margin: auto;
+  border-radius: 10px;
+  max-width: 500px;
+  padding: 24px;
+  box-shadow: 0px 0px 10px rgb(255, 255, 255), 0px 0px 20px rgb(255, 255, 255),
+    0px 0px 40px rgb(255, 255, 255), 0px 0px 80px rgb(255, 255, 255);
+}
+
+ul li {
+  position: relative;
+  text-align: start;
+  list-style: none;
+  margin: 0.5rem;
+  margin-left: 0;
+  margin-right: 1rem;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+ul li:hover, ul li input:hover, ul li label:hover {
+  cursor: pointer;
+}
+
+li span {
+  padding-right: 0.2rem;
+  float: right;
+}
+
+li span:hover {
+  transform-origin: center;
+  padding-right: 0.15rem;
+  transform: scale(1.4);
+  cursor: pointer;
+  color: chocolate;
+}
+.unselected {
+  box-shadow: none;
+  background-color: none;
+}
+.selected {
+  box-shadow: 0px 0px 10px rgb(8, 117, 8), 0px 0px 20px rgb(5, 79, 5),
+    0px 0px 40px rgb(5, 79, 5);
+  background-color: rgba(46, 146, 10, 0.5);
+}
